@@ -1,0 +1,98 @@
+#shopping-list-container {
+  font-size: larger;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+.new-item-btn {
+  position: absolute;
+  right: 1rem;
+  top: 1.6rem;
+  font-size: 1.5rem;
+  border: 0;
+  background-color: inherit;
+  cursor: pointer;
+}
+#new {
+  position: relative;
+}
+#new input {
+  width: 10rem;
+}
+#shopping-list {
+  display: flex;
+  flex-direction: row;
+}
+.item-quantity {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.7rem;
+}
+
+.decr-btn,
+.incr-btn {
+  cursor: pointer;
+}
+
+#shopping-list-table {
+  border-collapse: separate;
+  width: 25rem;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: brown;
+  box-shadow: 6px 10px 16px 2px rgba(0, 0, 0, 0.61);
+  -webkit-box-shadow: 6px 10px 16px 2px rgba(0, 0, 0, 0.61);
+  -moz-box-shadow: 6px 10px 16px 2px rgba(0, 0, 0, 0.61);
+}
+
+#shopping-list-table th,
+#shopping-list-table td {
+  text-align: center;
+  padding: 8px;
+}
+
+.divider {
+  color: #ffffff;
+}
+
+#add-new-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10rem;
+}
+#add-new-item form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-premium {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 5rem;
+  font-size: 1.5rem;
+}
+.premium-btn {
+  cursor: pointer;
+  padding: 1.5rem;
+  border: 0;
+  border-radius: 10px;
+  box-shadow: 6px 10px 16px 2px rgba(0, 0, 0, 0.61);
+  -webkit-box-shadow: 6px 10px 16px 2px rgba(0, 0, 0, 0.61);
+  -moz-box-shadow: 6px 10px 16px 2px rgba(0, 0, 0, 0.61);
+  transition: all 300ms ease-out;
+}
+
+.premium-btn:hover {
+  transition: all 300ms ease-in;
+  transform: scale(1.2);
+}
