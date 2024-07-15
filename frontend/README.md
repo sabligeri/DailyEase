@@ -1,4 +1,4 @@
-Create a "models" folder in frontend folder.
+Create a "model" folder in frontend folder.
 
 Cappuccino model dowonload url (.glTF file):
 https://sketchfab.com/3d-models/cup-of-cappuccino-04f2c34a3df94e58be97c2830e7e462a#download

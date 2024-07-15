@@ -9,18 +9,21 @@ Title: Cup of cappuccino
 import  { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
 import { useFrame } from '@react-three/fiber';
+import * as THREE from 'three';
 
-export function Cappuccino(props) {
+export function Cappuccino() {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const { nodes, materials } = useGLTF('../model/cup_of_cappuccino/scene.gltf') as any;
-  const ref = useRef();
+  const { nodes, materials } = useGLTF('./src/components/main/model/cup_of_cappuccino/scene.gltf') as any; //./model/cup_of_cappuccino/scene.gltf
+  const ref = useRef<THREE.Group>(null);
 
-  useFrame((state, delta)=>{
-    ref.current.rotation.y += delta * 0.5;
+  useFrame((_, delta)=>{
+    if (ref.current){
+      ref.current.rotation.y += delta * 0.5;
+    }
   })
 
   return (
-    <group {...props} dispose={null} ref={ref}>
+    <group dispose={null} ref={ref}>
       <group scale={9.5} position={[0,-0.8,0]}  >
         <mesh
           castShadow
