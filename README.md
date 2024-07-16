@@ -17,9 +17,7 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
     <li><a href="#screenshots">Screenshots</a></li>
-    <li><a href="#endpoints">Endpoints</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
@@ -77,7 +75,7 @@ To get a local copy up and running follow these simple steps.
     docker-compose up --build
     ```
 
-3. Set environment variables for your database and API keys in the `.env` file:
+3. Set environment variables for your database and API keys in the `application.properties` file:
     ```env
     DB_NAME=yourdbname
     DB_USERNAME=yourdbuser
@@ -89,69 +87,15 @@ To get a local copy up and running follow these simple steps.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples, and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
 <!-- SCREENSHOTS -->
 ## Screenshots
 
 ![Screenshot 1](https://github.com/sabligeri/DailyEase/blob/main/images/%20signup.png)
-![Screenshot 2](https://github.com/sabligeri/DailyEase/blob/main/images/login.png)
 ![Screenshot 3](https://github.com/sabligeri/DailyEase/blob/main/images/cappuccino.png)
-![Screenshot 4](https://github.com/sabligeri/DailyEase/blob/main/images/notesForToday.png)
 ![Screenshot 5](https://github.com/sabligeri/DailyEase/blob/main/images/note.png)
 ![Screenshot 6](https://github.com/sabligeri/DailyEase/blob/main/images/premium.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ENDPOINTS -->
-## Endpoints
-
-### Note Endpoints
-
-| Method | Endpoint                          | Description                |
-|--------|-----------------------------------|----------------------------|
-| GET    | `/api/note/{userId}`              | Get all notes for a user   |
-| GET    | `/api/note/{userId}/{noteId}`     | Get a specific note        |
-| GET    | `/api/note/{userId}/today`        | Get today's notes          |
-| POST   | `/api/note/{userId}`              | Add a new note             |
-| PUT    | `/api/note/{userId}/{noteId}`     | Update a note              |
-| DELETE | `/api/note/{userId}/{noteId}`     | Delete a note              |
-
-### Shopping List Endpoints
-
-| Method | Endpoint                          | Description                |
-|--------|-----------------------------------|----------------------------|
-| GET    | `/api/shopping/{userId}`          | Get all shopping items     |
-| POST   | `/api/shopping/{userId}`          | Add a new shopping item    |
-| PUT    | `/api/shopping/quantity/{itemId}` | Update item quantity       |
-| PUT    | `/api/shopping/bought/{itemId}`   | Update item bought status  |
-| DELETE | `/api/shopping/{itemId}`          | Delete a shopping item     |
-
-### User Endpoints
-
-| Method | Endpoint                          | Description                |
-|--------|-----------------------------------|----------------------------|
-| POST   | `/api/user/login`                 | Login a user               |
-| PATCH  | `/api/user/edit/username/{userId}`| Edit username              |
-| PATCH  | `/api/user/edit/password/{userId}`| Edit user password         |
-| PATCH  | `/api/user/subscribe/{userId}`    | Subscribe user to premium  |
-| DELETE | `/api/user/delete/{userId}`       | Delete a user              |
-| POST   | `/api/user/register`              | Register a new user        |
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- ROADMAP -->
@@ -162,7 +106,6 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 - [x] Add Shopping List management
 - [ ] Add Additional Templates w/ Examples
 - [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Add frontend for better user experience
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
