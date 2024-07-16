@@ -104,12 +104,12 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- SCREENSHOTS -->
 ## Screenshots
 
-![Screenshot 1](path/to/screenshot1.png)
-![Screenshot 2](path/to/screenshot2.png)
-![Screenshot 3](path/to/screenshot3.png)
-![Screenshot 4](path/to/screenshot4.png)
-![Screenshot 5](path/to/screenshot5.png)
-![Screenshot 6](path/to/screenshot6.png)
+![Screenshot 1](https://github.com/sabligeri/DailyEase/blob/main/images/%20signup.png)
+![Screenshot 2](https://github.com/sabligeri/DailyEase/blob/main/images/login.png)
+![Screenshot 3](https://github.com/sabligeri/DailyEase/blob/main/images/cappuccino.png)
+![Screenshot 4](https://github.com/sabligeri/DailyEase/blob/main/images/notesForToday.png)
+![Screenshot 5](https://github.com/sabligeri/DailyEase/blob/main/images/note.png)
+![Screenshot 6](https://github.com/sabligeri/DailyEase/blob/main/images/premium.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -183,16 +183,6 @@ Don't forget to give the project a star! Thanks again!
 5. Open a Pull Request
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- CONTACT -->
